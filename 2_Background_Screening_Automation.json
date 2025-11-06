@@ -1,0 +1,26 @@
+{
+  "name": "Background Screening Automation",
+  "description": "Streamlines HR background checks, document tracking, and status notifications.",
+  "nodes": [
+    {
+      "name": "Candidate Intake",
+      "type": "Webhook"
+    },
+    {
+      "name": "Document Verification",
+      "type": "API"
+    },
+    {
+      "name": "Background Check",
+      "type": "External API"
+    },
+    {
+      "name": "Status Update",
+      "type": "Google Sheets"
+    },
+    {
+      "name": "HR Notification",
+      "type": "Slack"
+    }
+  ]
+}
